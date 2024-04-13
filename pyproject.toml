@@ -20,9 +20,9 @@ dynamic = ["version"]
 
 dependencies = [
     'evaluate~=0.4.0',
-    'openai~=0.27',
-    'pandas~=2.0.1',
-    'langchain~=0.0.170',
+    'openai~=1.17.1',
+    'pandas~=2.2.2',
+    'langchain~=0.1.16',
     'sentencepiece==0.1.99',
     'bert_score~=0.3',
     'nltk~=3.8',
