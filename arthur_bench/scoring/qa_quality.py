@@ -2,7 +2,7 @@ import logging
 from typing import List, Optional, Dict, Any, Union, Tuple
 
 from langchain.chains import LLMChain
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 from langchain.chat_models.base import BaseChatModel
 
 from arthur_bench.exceptions import UserValueError
