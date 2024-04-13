@@ -1,10 +1,10 @@
 import logging
 import tiktoken
+from langchain_core.language_models import BaseChatModel
 from tiktoken.core import Encoding
 from typing import Any, List, Optional, Tuple, Union, Dict
 from langchain.chains import LLMChain
 from langchain_community.chat_models import ChatOpenAI
-from langchain.chat_models.base import BaseChatModel
 
 from arthur_bench.exceptions import UserValueError, UserTypeError
 
